@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.title {
+    font-size: 30px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    font-weight: 700;
+    /* color:rgb(255, 139, 71); */
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(209, 25, 25);
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+  
+}
+
+.title1 a:link,
+.title1 a:visited {
+    font-size: 30px;
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    font-weight: 700;
+    background-color: rgb(209, 25, 25);
+    color: white;
+    margin: 10px;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+  }
+
+ .title1 a:hover, 
+ .title1 a:active {
+    background-color: #f5f5f5;
+    
+    color:rgb(209, 25, 25) ;
+    
+  }
+
+.file-name {
+    margin-left: 18%;
+    padding: 17px;
+    font-size: 19px;
+    font-family: sans-serif;
+}

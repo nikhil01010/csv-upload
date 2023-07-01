@@ -1,0 +1,133 @@
+.body {
+    margin:0;
+    padding: 0;
+    
+}
+
+.center-text h1{
+    font-size: 44px;
+    font-family:Trebuchet MS;
+    text-align: center;
+    height: 35px;
+    margin-top: 0px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 150px;
+    background-color: #f8f8f8;
+    border: 2px dashed lightgrey;
+}
+
+
+    .upload-btn{
+   
+        align-items: center;
+        background-color: #0A66C2;
+        border: 0;
+        border-radius: 100px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-flex;
+        font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 20px;
+        max-width: 480px;
+        min-height: 40px;
+        min-width: 0px;
+        overflow: hidden;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        touch-action: manipulation;
+        transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+      }
+      
+      .upload-btn:hover,
+      .upload-btn:focus { 
+        background-color: #16437E;
+        color: #ffffff;
+      }
+      
+      .upload-btn:active {
+        background: #09223b;
+        color: rgb(255, 255, 255, .7);
+      }
+      
+      .upload-btn:disabled { 
+        cursor: not-allowed;
+        background: rgba(0, 0, 0, .08);
+        color: rgba(0, 0, 0, .3);
+      }
+     
+
+
+.list-center-text {
+    color:  #f8f8f8;
+    font-family: Copperplate; 
+    text-align: center;
+    background-color: rgb(234, 116, 116);
+    color: white;
+    margin-top: 50px;
+}
+.list-center-text h2 {
+    padding: 5px;
+    font-size: 30px;
+}
+.no-file {
+    font-size: 22px;
+    color: steelblue;
+    font-family: monospace; 
+    text-align: center;
+}
+.file-details {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  /* margin: 20px 0; */
+  margin: auto;
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
+th, td {
+  text-align: left;
+  padding: 12px;
+}
+th {
+  background-color: rgb(255, 205, 113);
+  font-weight: bold;
+}
+td {
+  border-bottom: 1px solid #ddd;
+  font-family: monospace;
+}
+.view-link {
+
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.delete-link {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#n1{
+  display: inline;
+}
+
