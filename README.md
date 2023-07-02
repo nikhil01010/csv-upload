@@ -7,7 +7,7 @@ To install CSV_Upload, please follow these steps:
 
 Clone this repository using the following command:
 ```
-$ git clone https://github.com/agentgrey/CSV_Upload.git
+$ git clone https://github.com/nikhil01010/csv-upload.git
 ```
 Install the required dependencies using the following command:
 ```
@@ -21,3 +21,26 @@ Open the application in your web browser by visiting the following URL:
 ```
 $ http://localhost:8000 
 ```
+Folder Structure
+```
+CSV_Upload/
+|── |assets/
+│   |      ├── css/
+│   │      |     ├── styles.css
+│   |      ├── js/
+│   |            ├── script.js
+│   ├── uploads/
+│   ├── index.html
+|   |
+├── routes/
+│   ├── csvRoutes.js
+|   |
+├── controllers/
+│   ├── csvController.js
+|   |
+├── models/
+│   ├── csvModel.js
+|   |
+├── .gitignore
+├── package.json
+├── README.md
